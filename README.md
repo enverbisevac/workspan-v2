@@ -12,3 +12,5 @@ make test
 running example project you can do in two ways:
 - make run
 - python main.py &lt;inputfile&gt; &lt;id&gt;
+
+result will be stored in result.json file
