@@ -7,6 +7,8 @@ Link
 
 from workspan.base import BaseAsDict
 
+__all__ = ['Link', ]
+
 
 class Link(BaseAsDict):
     """Link class"""

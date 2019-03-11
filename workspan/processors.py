@@ -10,6 +10,8 @@ from workspan.base import BaseProcessor
 from workspan.formats import JSONFormat
 from workspan.settings import MISSING_INPUT_FILE_NAME
 
+__all__ = ['FileFactoryProcessor', ]
+
 
 class FileFactoryProcessor(BaseProcessor):
     """factory for build processor based on file format

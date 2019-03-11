@@ -11,6 +11,8 @@ JSONFormat
 import ijson
 from workspan.base import BaseProcessor
 
+__all__ = ['JSONFormat', ]
+
 
 class JSONFormat(BaseProcessor):
     """Basic json format processor, iterative so

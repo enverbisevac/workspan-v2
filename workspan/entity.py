@@ -8,6 +8,8 @@ Classes
 import copy
 from workspan.base import BaseAsDict
 
+__all__ = ['Entity', ]
+
 
 class Entity(BaseAsDict):
     """
@@ -136,6 +138,7 @@ class Entity(BaseAsDict):
         """
 
         siblings = []
+
         def traverse(entity, memo):
             """travers all nodes and fill list"""
             not_there = False

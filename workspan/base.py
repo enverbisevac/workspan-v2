@@ -3,7 +3,7 @@
 import threading
 from abc import ABCMeta, abstractmethod
 
-__all__ = ['BaseCounter', ]
+__all__ = ['BaseCounter', 'BaseProcessor', 'BaseAsDict']
 
 
 class BaseCounter(object):

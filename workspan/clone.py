@@ -9,6 +9,7 @@ EntityCloner
 
 __all__ = ['EntityCloner', ]
 
+
 class EntityCloner(object):
     """EntityCloner class
 
@@ -44,6 +45,7 @@ class EntityCloner(object):
     def _generate_ids(self, cloned_entity):
         """method for generating new identity values for cloned objects"""
         arr = []
+
         def new_id(entity):
             """nested function for generate id"""
             entity.entity_id = self._counter.inc()
